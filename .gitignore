@@ -1,4 +1,4 @@
-./chromedriver/
-./dist/
-./node_modules/
-./.gitignore/
+chromedriver/
+dist/
+node_modules/
+.idea/
