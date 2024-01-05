@@ -74,7 +74,7 @@ export class GrabEventsTask {
             }
 
             const dir = path.join(__dirname, '../../events');
-            fs.writeFileSync(`${dir}/${month.toString().padStart(2, '0')}_${year}-events.ics`, value);
+            fs.writeFileSync(`${dir}/${year}/${month.toString().padStart(2, '0')}_${year}-events.ics`, value);
         });
     }
 }
